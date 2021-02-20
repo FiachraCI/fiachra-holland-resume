@@ -3,6 +3,9 @@
 /* ------------------------------Navbar */
 nav {
     background-color: #1e2328;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .navbar-brand {
@@ -10,6 +13,9 @@ nav {
     font-size: 40px;
     color: #fafafa;
     padding-left: 50px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .nav-item a {
@@ -17,20 +23,93 @@ nav {
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 12px;
+    letter-spacing: 4px;
+    font-size: 10px;
     font-weight: 200;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+/* ------------------------------General paddings/margins & texts */
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    display: block;
 }
 
 /* ------------------------------Hover Effects */
 
-li a:hover {
+.nav-item a:hover {
     color: #f5b301;
-    transition: ease-in-out 1s;
 }
 
 .navbar-brand:hover {
     color: #f5b301;
-    transition: ease-in-out 1s;
 }
+
+.cv-download i:hover {
+    color: #f5b301;
+}
+
+.social-links i:hover {
+    color: #f5b301;
+}
+
+/* ------------------------------Footer */
+
+footer {
+    background-color: #1e2328;
+    color: #fafafa;
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.cv-download {
+   margin-top: 20px;
+   font-size: 0.7rem;
+}
+
+.cv-download i {
+    color: #fafafa;
+    margin-left: 10px;
+    font-size: 15px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.social-links li a i {
+    height: 40px;
+    width: 40px;
+    white-space: nowrap;
+    color: #fafafa;
+    padding: 12px 40px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.social-links {
+    white-space: nowrap;
+}
+
+.copyright {
+    margin-bottom: 20px;
+    font-size: 0.5rem;
 }
