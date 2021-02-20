@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Quattrocento:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Poppins:wght@100;200&display=swap');
+
+/* ------------------------------Navbar */
+nav {
+    background-color: #1e2328;
+}
+
+.navbar-brand {
+    font-family: "Lobster",sans-serif;
+    font-size: 40px;
+    color: #fafafa;
+    padding-left: 50px;
+}
+
+.nav-item a {
+    color: #fafafa;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+/* ------------------------------Hover Effects */
+
+li a:hover {
+    color: #f5b301;
+    transition: ease-in-out 1s;
+}
+
+.navbar-brand:hover {
+    color: #f5b301;
+    transition: ease-in-out 1s;
+}
+}
